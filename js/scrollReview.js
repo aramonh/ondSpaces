@@ -84,7 +84,7 @@ sr.reveal('#testimonial-text',{
     origin: 'left', 
     delay:2000
 })
-
+/*
 
 sr.reveal('#textAboutUsHome',{
     duration:2000,
@@ -109,4 +109,4 @@ sr.reveal('#contact-content',{
     duration:5000,
     origin: 'bottom', 
     
-})
+})*/
