@@ -1,0 +1,182 @@
+
+body{
+    margin: 0%;
+    
+    font-family: 'Ubuntu', sans-serif;
+
+}
+ul{
+    list-style:none;
+    }
+    
+.icon-redes{
+    height:40px;
+    width: 40px;
+   
+    margin-left: 2%;
+    margin-right: 2%;
+    
+  }
+/*
+** EFECTOS HOVER
+*/
+/* Zoom In #1 */
+.zoom-in-image  {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.zoom-in-image:hover {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+/*efectos de img hover*/
+.img-zoom-in 
+{
+transition:all .2s ease-in-out;
+-webkit-transition:all .2s ease-in-out;
+-moz-transition:all .2s ease-in-out;
+-ms-transition:all .2s ease-in-out;
+-o-transition:all .2s ease-in-out;
+}
+
+.img-zoom-in:hover 
+{
+transform:scale(1.2);
+-webkit-transform:scale(1.2);
+-moz-transform:scale(1.2);
+-ms-transform:scale(1.2);
+-o-transform:scale(1.2)
+}
+/*efectos de img hover*/
+.img-zoom-out  
+{
+transition:all .2s ease-in-out;
+-webkit-transition:all .2s ease-in-out;
+-moz-transition:all .2s ease-in-out;
+-ms-transition:all .2s ease-in-out;
+-o-transition:all .2s ease-in-out;
+}
+
+.img-zoom-out:hover  
+{
+transform:scale(0.9);
+-webkit-transform:scale(0.9);
+-moz-transform:scale(0.9);
+-ms-transform:scale(0.9);
+-o-transform:scale(0.9)
+}
+/*** effect rotate-y ***/
+
+.img-rotate-y
+{
+transition:all 1.2s ease-in-out;
+-webkit-transition:all 1.2s ease-in-out;
+-moz-transition:all 1.2s ease-in-out;
+-ms-transition:all 1.2s ease-in-out;
+-o-transition:all 1.2s ease-in-out;
+}
+
+.img-rotate-y:hover
+{
+transform:rotateY(180deg);
+-webkit-transform:rotateY(180deg);
+-moz-transform:rotateY(180deg);
+-ms-transform:rotateY(180deg);
+-o-transform:rotateY(180deg);
+}
+
+/*** effect rotate-scale ***/
+
+.img-rotate-scale
+{
+transition:all 1.2s ease-in-out;
+-webkit-transition:all 1.2s ease-in-out;
+-moz-transition:all 1.2s ease-in-out;
+-ms-transition:all 1.2s ease-in-out;
+-o-transition:all 1.2s ease-in-out;
+}
+
+.img-rotate-scale:hover
+{
+transform:rotate(720deg) scale(2,2);
+-webkit-transform:rotate(720deg) scale(2,2);
+-moz-transform:rotate(720deg) scale(2,2);
+-ms-transform:rotate(720deg) scale(2,2);
+-o-transform:rotate(720deg) scale(2,2);
+}
+
+
+
+/*
+**  MAIN CSS
+*/
+.body-main{
+    background-color: black;
+}
+#main{
+    height: 100%;
+}
+#footer-main{
+    height: 50px;
+    color:white;
+    text-align: center;
+   font-size: small;
+}
+
+/*
+**  HOME CSS
+*/
+
+.body-home{
+    margin: 0;
+    background-color: black;
+}
+.navegacion{
+    background-color: white;
+    
+}
+
+.textBox{
+    background-color: white;
+    text-align: center;
+    
+   
+}
+.header-content-left {
+
+    text-align: center; 
+    background-color: black;
+
+}
+.header-content-right {
+    padding-top: 12%;
+    text-align: center; 
+    background-color: white;
+    
+
+}
+#videoPresentation{
+    text-align: center;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+#testimonial{
+    background: white;
+
+    text-align: center;
+    padding-top: 6%;
+    padding-bottom: 5%;
+}
+.about-content-right{
+    text-align: center;
+    padding-top: 25%;
+    
+}
+#info-contact{
+    background-color: white;
+    text-align: center;
+    padding-top: 6%;
+    padding-bottom: 5%;
+}
