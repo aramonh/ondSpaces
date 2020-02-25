@@ -17,11 +17,11 @@
   <body class="body-home">
    
     <!--NAV BAR-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
        <div class="container">
         <a class="navbar-brand mr-2 image-hover  zoom-in-image" href="index.html">OND SPACES</a>
         <div class="row ml-2 justify-content-center">
-          <a href="https://www.facebook.com/OND-106311130703865/"> <img class="col- mr-2 icon-redes  image-hover img-zoom-in" src="images/logo-facebook-negro.jpg" class="rounded mx-auto d-block" alt="logo"  ></a>
+          <a href="https://www.facebook.com/OND-106311130703865/"> <img class="col- mr-2 icon-redes  image-hover img-zoom-in" src="images/logo-facebook-negro.png" class="rounded mx-auto d-block" alt="logo"  ></a>
           <a href="https://www.instagram.com/ond.spaces/"><img class="col- icon-redes  image-hover img-zoom-in" src="images/logo-instagram-negro.png" class="rounded mx-auto d-block" alt="logo" ></a>
           
       </div>
@@ -35,6 +35,9 @@
             </li>
             <li class="nav-item ">
               <a class="nav-link image-hover img-zoom-in" href="#testimonial">About Us</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link image-hover img-zoom-in" href="#work-with-us">Work With Us</a>
             </li>
             <li class="nav-item">
               <a class="nav-link image-hover img-zoom-in" href="#info-contact">Contact</a>
@@ -53,11 +56,16 @@
             <div class="col-md-6 ">
                 <div id="logoHome1"  class="header-content-left " >
                   <a   href="index.html"><img class="image-hover  zoom-in-image "src="images/ONDlogoBLANCO.png" alt="ONDSpaces" style="width: 60%; padding: 10%;"></a>
+                  <h2 id="textLogoHome1" style="color: white;">“A world of sounds”</h2>
                 </div>
             </div>
             <div class="textBox col-md-6" id="textIntroHome"  >
                 <div class="header-content-right" >
-                    <h4>LEMA: BICIOSOS PERO JUICIOSOS.</h4>
+                    <h4>OND es una plataforma cultural dedicada a los sonidos vanguardistas del siglo XXI , 
+                      creemos firmemente en el talento latinoamericano 
+                      y su potencial para crear tejido social a través del sonido*
+    
+                    Sonido: Toda onda mecánica que viaje a 343,2 m/s y purifique el alma. </h4>
                 </div>
                 <!--REDES SOCIALES-->
             </div>
@@ -68,7 +76,7 @@
 <!--VIDEO PRESENTATION-->
 <section id="videoPresentation">
     <div class="container mt-5" >
-        <video src="videos/video_presentation.mp4" width="50%" controls autoplay loop></video>
+        <video src="videos/video_presentation.mp4" width="50%" controls  loop></video>
 
     </div>
 
@@ -78,13 +86,16 @@
 <section id="testimonial">
     <div id="testimonial-text" class="container">
         <p class="h2 mb-2" >
-           "" AHHHHHH!!.... UUHH!!! .. AHHH!!... BUENAAAAA!!!!!!!  ... "
+          “Music gives a soul to the universe, wings to the mind, flight to the imagination and life to everything.”
         </p >
-        <p class="h4 mt-5">-Algun Loco Bien Demente en OndExperience</p>
+        <p class="h4 mt-5"> ― Platon </p>
     </div>
 </section>
 
 
+
+
+<!--ABOUT US -->
 <section id="info-about-us">
   <div class="container">
     <div class="row">
@@ -96,8 +107,11 @@
          <div class="textBox col-md-6" id="textAboutUsHome">
             <div class="about-content-right"  >
               <h2 class="mb-5">Sobre Nosotros / About Us</h2>
-                <p>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo libero obcaecati asperiores necessitatibus ea rerum excepturi nulla nemo quasi accusamus!
+                <p class="mb-5">
+                  Somos emprendedores colombianos enfocados en gestionar la cultura musical latinoamericana 
+                  y brindar experiencias inolvidables que hagan vibrar el alma de quien permita a la música
+                   invadir su corazón. P.L.U.R  
+
                 </p>
             </div>
          </div>
@@ -107,18 +121,80 @@
 
 
 
+<!--  WORK WITH US            -->
+<section id="work-with-us">
+  <div class="container">
+    <div class="row">
+      <div class="textBox col-md-6" id="textWorkWithUsHome">
+        <div class="work-with-us-content-left">
+        <h2 class=" mt-5 mb-5">Haz Parte De OND / Work With Us</h2>
+        <p>
+          Hola: te hemos estado esperando, 
+          si eres un artista emergente o establecido y deseas utilizar 
+          nuestra plataforma para dar a conocer tu propuesta auditiva háznoslo saber, 
+          estamos interesados en hacer llegar tu arte a nuestros creyentes. 
+        </p>
+        <br>
+         <a href="#"  id="btnReadMoreWorkWithUs" class="btn btn-outline-secondary btn-lg mb-5 "  type="button" data-toggle="modal" data-target="#workWithUsModal">Read More..</a><br>
+      </div>
+    </div>
+
+      <div class="col-md-6">
+        <div class="work-with-us-content-right">
+          
+            <img id="imageWorkWithUs" src="images/image-info-work-with-us.JPG" alt="work-with-us" width="100%">
+            
+         </div>
+      </div>
+     
+
+    </div>
+  </div>
+</section>
+
+<!-- Modal IN COMING-->
+<div class="modal fade" id="workWithUsModal" tabindex="-1" role="dialog" aria-labelledby="workWithUsModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="workWithUsModalLabel" style="text-align: center;"><h2>Procedimiento : </h2></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <br>
+        <h3>Para ser parte de la Familia OND, debemos escuchar tu material primero para sentir tu pasion.
+        </h3>
+        <h4>Envianos al correo "support@ondspaces.com" los siguientes datos y material:</h4>
+        <ul>
+          <li>Un Audio, Track, o link de Proyecto Audiovisual propio</li>
+          <li>En caso de disponer de material visual, adjuntarlo.</li>
+          <li>Nombre de Artista.</li>
+          <li>Red Social de Artista.</li>
+          <li>Edad, Nombre, y Apellido Personal del Artista.</li>
+          <li>Cedula,Correo Electronico, Numero de Contacto y Ciudad donde reside.</li>
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--       CONTACT       -->
 <section id="info-contact">
   <div id="contact-content" class="container">
     <h2 class="mb-5">CONTACTO / CONTACT</h2>
     <h4>CELULARES / CELL PHONES</h4>
     <ul class="mb-5">
-      <li>NUM 1</li>
-      <li>NUM 2</li>
+      <li>(+57) 319-705-9943</li>
+      
     </ul>
     <h4>CORREO / E-MAIL</h4>
     <ul class="mb-5">
-      <li>CORREO 1</li>
-      <li>CORREO 2</li>
+      <li>support@ondspaces.com</li>
     </ul>
   </div>
 </section>
