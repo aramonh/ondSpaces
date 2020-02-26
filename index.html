@@ -2,6 +2,7 @@
 <html lang="es">
     <head>
         <!-- Required meta tags -->
+        <link rel="shortcut icon" href="/images/ONDICONOSimple.png" />
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <!--GOOGLE FONTS-->
@@ -19,7 +20,7 @@
 <div id="main">
     <div class="container-fluid" >
         <div class="row" >
-            <div class="col-md-6 mt-auto" style="padding-top: 10%; background-color: #f1f1f1;">
+            <div class="col-md-6 mt-auto" id="content-left-main" >
                 <div class="main-content-left " id="logoMain1" style="text-align: center;">
                     <div class="row mb-5 justify-content-center">
                         <a href="https://www.facebook.com/OND-106311130703865/"> <img class="col- mr-2 icon-redes  image-hover img-zoom-in" src="images/logo-facebook-negro.png" class="rounded mx-auto d-block" alt="logo"  ></a>
@@ -28,11 +29,13 @@
                   <a href="index.html"><img class="image-hover  zoom-in-image"  src="images/ONDlogo.png" alt="ONDSpaces" style="width: 60%;"></a>  
                 </div>
                 <div style="text-align: center;">
-                <a href="home.html"  id="btnMain1" class="btn btn-outline-secondary btn-lg mt-5">HOME</a> <br>
-                <a href="#"  id="btnMain2" class="btn btn-outline-secondary btn-lg mt-3 mb-1"  type="button" data-toggle="modal" data-target="#inComingModal">OND EXPERIENCE</a><br>
-                <a href="#"  id="btnMain3" class="btn btn-outline-secondary btn-lg mt-3 mb-5"  type="button" data-toggle="modal" data-target="#inComingModal">AUDIOND</a><br>
+                <a href="home.html"  id="btnMain1" class="btn btn-outline-secondary rounded btn-lg mt-5">HOME</a> <br>
+                <a href="#"  id="btnMain2" class="btn btn-outline-secondary rounded btn-lg mt-3 mb-1"  type="button" data-toggle="modal" data-target="#inComingModal">OND EXPERIENCE</a><br>
+                <a href="#"  id="btnMain3" class="btn btn-outline-secondary rounded btn-lg mt-3 mb-5"  type="button" data-toggle="modal" data-target="#inComingModal">AUDIOND</a><br>
             </div>
-            </div>
+          </div>
+
+
             <div class="col-md-6 mt-auto ml-auto" style="text-align: center;">
                 <div class="main-content-right " style="text-align: center; ">
                     <video id="videoMain1" src="videos/video_presentation.mp4"  width="100%" controls  loop></video>
@@ -42,7 +45,7 @@
     </div>
     </div>
 <!--FOOTER-->
-    <footer id="footer-main">
+    <footer  class="footer-info-page" id="footer-main">
         <div class="containter">
         <p id="footerMain"class="mt-5">OND Spaces&reg; - Colombia 2020 </p>
          </div>
@@ -50,25 +53,28 @@
     
    
 <!-- Modal IN COMING-->
-<div class="modal fade" id="inComingModal" tabindex="-1" role="dialog" aria-labelledby="inComingModalLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="inComingModalLabel" style="text-align: center;">Lo sentimos... / I´m sorry...</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-            Esta seccion vendra proximamente.. / This section will come soon..
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        </div>
+
+<div class="modal fade" id="inComingModal" tabindex="1" role="dialog" aria-labelledby="inComingModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content mx-0 my-0" >
+      <div class="modal-header  mt-0" >
+        <p class="modal-title h4 text-align text-center mx-4 px-auto text-uppercase  "  id="inComingModalLabel" >
+          <em> Lo sentimos... / I´m sorry...</em></p>
+
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span style="color: white;"aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body text-align text-center" >
+        <p class=" px-4 py-3 text-uppercase"> <em> Esta seccion vendra proximamente.. / This section will come soon..</em></p>
+        
+      </div>
+      <div class="modal-footer justify-content-center">
+        <button type="button" class="btn btn-outline-secondary rounded btn-lg mb-5" data-dismiss="modal">Close</button>
       </div>
     </div>
   </div>
-
+</div>
    <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
