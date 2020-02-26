@@ -1,7 +1,7 @@
 
 body{
     margin: 0%;
-    
+    padding: 0%;
     font-family: 'Ubuntu', sans-serif;
 
 }
@@ -17,6 +17,19 @@ ul{
     margin-right: 2%;
     
   }
+
+.modal-header{
+background-color: ;
+
+}
+
+.modal-body{
+
+}
+
+.modal-footer{
+
+}
 /*
 ** EFECTOS HOVER
 */
