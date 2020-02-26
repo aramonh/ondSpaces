@@ -61,6 +61,21 @@ sr.reveal('#textIntroHome',{
     delay:1000,
     distance:'100px'
 })
+sr.reveal('#textIntroHome2',{
+    duration:2000,
+    origin: 'rigth', 
+    delay:3500,
+})
+sr.reveal('#textIntroHome3',{
+    duration:3000,
+    origin: 'rigth', 
+    delay:4000,
+})
+sr.reveal('#textIntroHome4',{
+    duration:3000,
+    origin: 'rigth', 
+    delay:4500,
+})
 sr.reveal('.header-content-right',{
     duration:1000,
     origin: 'rigth', 
