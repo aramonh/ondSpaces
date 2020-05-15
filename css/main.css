@@ -154,7 +154,9 @@ background-image: url("https://www.transparenttextures.com/patterns/otis-redding
     text-align: center;
    font-size: small;
 }
-
+.btn-main{
+    width: 200px;
+}
 /*
 **  HOME CSS
 */
